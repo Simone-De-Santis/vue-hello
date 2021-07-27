@@ -10,3 +10,11 @@ Chi non lo ha già fatto, recuperi e completi gli esercizi precedenti
 Chi invece è in regola con la consegna degli esercizi può sperimentare, in file separato, tutto quello che abbiamo visto oggi!
 Buon lavoro! :faccia_leggermente_sorridente:
  */
+
+let app = new Vue({
+  el: "#app",
+  data: {
+    introMessage: "Ciao io sono un messagio stampato da VueJS",
+    linkImage: "./img/vue-routing.jpg",
+  },
+});
