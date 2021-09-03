@@ -11,7 +11,7 @@ Chi invece è in regola con la consegna degli esercizi può sperimentare, in fil
 Buon lavoro! :faccia_leggermente_sorridente:
  */
 
-let app = new Vue({
+const app = new Vue({
   el: "#app",
   data: {
     introMessage: "Ciao io sono un messagio stampato da VueJS",
